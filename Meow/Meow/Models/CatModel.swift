@@ -18,9 +18,5 @@ struct Cat: Identifiable, Equatable, Codable {
         self.healthProblem = healthProblem
         self.description = description
     }
-    
-    func updateCompletation() -> Cat {
-        return Cat(id: id, name: name, breed: breed, gender: gender, age: age, healthProblem: healthProblem, description: description)
-    }
 }
 
